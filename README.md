@@ -15,7 +15,7 @@ int main() {
 - `include` keyword is used to import libraries.
   - standard library names are enclosed in `<>`
   - user-defined library names are enclosed in `""`
-- every c++ program has a main function.
+- every c++ program has a main function which serves as a entry point.
 
 ## Comments
 
