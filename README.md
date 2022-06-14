@@ -13,8 +13,8 @@ int main() {
 
 - `#` in `#include <iostream>` is a preprocessor directive and it's processed before actual compilation.
 - `include` keyword is used to import libraries.
-- standard library names are enclosed in `<>`
-- user-defined library names are enclosed in `""`
+  - standard library names are enclosed in `<>`
+  - user-defined library names are enclosed in `""`
 - every c++ program has a main function.
 
 ## Comments
