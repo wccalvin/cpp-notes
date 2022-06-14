@@ -1,5 +1,9 @@
 # C++ Notes
 
+## How to execute C++ program
+
+`g++ main.cpp -o hello`
+
 ## Program Structure
 
 ```c++
