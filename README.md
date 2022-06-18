@@ -10,7 +10,7 @@
 #include <iostream>
 
 int main() {
-  std::cout << "Hello there, first c++ program" << std::endl;
+  std::cout << "Hello, world!" << std::endl;
   return (0);
 }
 ```
@@ -34,6 +34,8 @@ this is a multi-line comment
 2 ...
 */
 ```
+
+Example: [01-hello](https://github.com/wccalvin/cpp-notes/blob/main/01-hello/main.cpp)
 
 ## Output
 
@@ -67,3 +69,15 @@ int x, y;
 std::cin >> x >> y;
 std::cout << "Recieved values: " x << "and " << y;
 ```
+
+Example: [02-console](https://github.com/wccalvin/cpp-notes/blob/main/02-console/main.cpp)
+
+## Variable
+
+- Declaring a variable: `type name = value;`
+- Defining a variable: `type name;`
+- Assigning a variable: `name = value;`
+- Declaring multiple variable: `type name_one = value_one, name_two = value_two;`
+  Note: same type should be used when declaring multiple variables in the same statement.
+- constant variable: `const type name = value;`
+  Note: constant variables values cannot be changed after initialization.
