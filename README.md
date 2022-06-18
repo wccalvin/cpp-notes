@@ -72,7 +72,7 @@ std::cout << "Recieved values: " x << "and " << y;
 
 Example: [02-console](https://github.com/wccalvin/cpp-notes/blob/main/02-console/main.cpp)
 
-## Variable
+## Variables
 
 - Declaring a variable: `type name = value;`
 - Defining a variable: `type name;`
