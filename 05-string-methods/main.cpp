@@ -14,8 +14,9 @@ int main() {
   char second = msg[1];
   int msg_length = msg.length();
 
-  std::cout << second << std::endl;
-  std::cout << msg_length << std::endl;
+  std::cout << "string: " << msg << std::endl;
+  std::cout << "second char of the string: " << second << std::endl;
+  std::cout << "total chars of the string: " << msg_length << std::endl;
 
   return 0;
 }
