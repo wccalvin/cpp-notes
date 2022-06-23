@@ -80,6 +80,7 @@ Example: [02-console](https://github.com/wccalvin/cpp-notes/blob/main/02-console
 - Declaring multiple variable: `type name_one = value_one, name_two = value_two;`
 
   Note: same type should be used when declaring multiple variables in the same statement.
+
 - constant variable: `const type name = value;`
 
   Note: constant variables values cannot be changed after initialization.
@@ -91,6 +92,7 @@ Example: [02-console](https://github.com/wccalvin/cpp-notes/blob/main/02-console
 ### Common data types
 
 - `int` stores whole numbers without decimals.
+
   - memory: 4 bytes
   - range: $-2^{31}$ to $2^{31}$
 
@@ -99,6 +101,7 @@ Example: [02-console](https://github.com/wccalvin/cpp-notes/blob/main/02-console
     ```
 
 - `double` stores floating-point numbers.
+
   - memory: 8 bytes
   - range: 15 decimal points
 
@@ -107,6 +110,7 @@ Example: [02-console](https://github.com/wccalvin/cpp-notes/blob/main/02-console
     ```
 
 - `char` stores a single character surrounded by single quotes.
+
   - memory: 1 byte
 
     ```c++
@@ -114,6 +118,7 @@ Example: [02-console](https://github.com/wccalvin/cpp-notes/blob/main/02-console
     ```
 
 - `string` stores sequence of characters surrounded by double quotes.
+
   - not a built-in data type
   - `<string>` library must be included
 
@@ -124,7 +129,9 @@ Example: [02-console](https://github.com/wccalvin/cpp-notes/blob/main/02-console
     ```
 
   - `string` methods
+
     - `std::string` comes with lot of useful string methods.
+
       - concatenation
 
         ```c++
@@ -158,6 +165,7 @@ Example: [02-console](https://github.com/wccalvin/cpp-notes/blob/main/02-console
         ```
 
 - `bool` stores `true` or `false` boolean values.
+
   - memory: 1 byte
 
     ```c++
