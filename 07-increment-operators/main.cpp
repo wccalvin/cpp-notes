@@ -8,24 +8,23 @@
 */
 
 int main() {
-    // pre-increment example
-    int x = 5;
-    std::cout << "x before pre-increment: " << x << std::endl;
+  // pre-increment example
+  int x = 5;
+  std::cout << "x before pre-increment: " << x << std::endl;
 
-    int y = ++x;
-    std::cout << "x after pre-increment: " << x << std::endl;
-    std::cout << "y after pre-increment: " << y << std::endl;
-    std::cout << "~~~~~~~~~~~~~~~~" << std::endl;
+  int y = ++x;
+  std::cout << "x after pre-increment: " << x << std::endl;
+  std::cout << "y after pre-increment: " << y << std::endl;
+  std::cout << "~~~~~~~~~~~~~~~~" << std::endl;
 
-    // post-increment example
-    int a = 5;
-    std::cout << "a before post-increment: " << a << std::endl;
+  // post-increment example
+  int a = 5;
+  std::cout << "a before post-increment: " << a << std::endl;
 
-    int b = a++;
-    std::cout << "a after post-increment: " << a << std::endl;
-    std::cout << "b after post-increment: " << b << std::endl;
-    std::cout << "~~~~~~~~~~~~~~~~" << std::endl;
+  int b = a++;
+  std::cout << "a after post-increment: " << a << std::endl;
+  std::cout << "b after post-increment: " << b << std::endl;
+  std::cout << "~~~~~~~~~~~~~~~~" << std::endl;
 
-
-    return 0;
+  return 0;
 }
