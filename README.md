@@ -2,56 +2,11 @@
 
 - [x] [How to execute C++ program](./docs/execute.md)
 - [x] [Program structure](./01-hello/readme.md)
-
-## Comments
-
-- single line comments `// this is a one line comment`
-- multi line comments
-
-```c++
-/*
-this is a multi-line comment
-1 ...
-2 ...
-*/
-```
-
-Example: [01-hello](https://github.com/wccalvin/cpp-notes/blob/main/01-hello/main.cpp)
-
-## Output
-
-- `iostream` stands for "input/output stream".
-- It is part of C++ standard library
-  `std::cout` stands for "character output". It is used with insertion
-  operator `<<`.
-- Multiple insertion operators can be used together on the same line.
-
-```c++
-std:cout << "Hi there, " << "this is second insertion operator.";
-```
-
-- `std::cout` does not automatically insert a new line. It should be deliberately added
-  using `\n` or `<< std::endl` (it stands for "end line")
-
-## Input
-
-- `std::cin` stands for "character input". It is used with extration operator `>>`.
-- Below code gives and example of `std::cin` usage
-
-```c++
-int x;
-std::cin >> x;  // stores user input in variable x as declared above
-```
-
-- it is possible to read multiple values in a single line.
-
-```c++
-int x, y;
-std::cin >> x >> y;
-std::cout << "Recieved values: " x << "and " << y;
-```
-
-Example: [02-console](https://github.com/wccalvin/cpp-notes/blob/main/02-console/main.cpp)
+- [x] [Comments](./docs/comments.md)
+- [x] [hello.cpp](./01-hello/main.cpp)
+- [x] [Output](./docs/output.md)
+- [x] [Input](./docs/input.md)
+- [x] [console.cpp](./02-console/main.cpp)
 
 ## Variables
 
