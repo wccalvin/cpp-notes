@@ -14,6 +14,11 @@
 - [x] [Data types](./docs/data-types.md)
 - [x] [ex04: data_types.cpp](./04-data-types/main.cpp)
 - [x] [ex05: string_methods.cpp](./05-string-methods/main.cpp)
+- [x] [ex06: arithmetic_operators.cpp](./06-arithmetic-operators/main.cpp)
+- [x] [ex07: increment_operators.cpp](./07-increment-operators/main.cpp)
+- [x] [ex08: assignment_relational_logical_operators.cpp](./08-assignment-relational-logical-operators/main.cpp)
+- [x] [ex09: references.cpp](./09-references/main.cpp)
+- [x] [ex10: pointers.cpp](./10-pointers/main.cpp)
 
 ## References
 
