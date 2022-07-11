@@ -19,6 +19,7 @@
 - [x] [ex08: assignment_relational_logical_operators.cpp](./08-assignment-relational-logical-operators/main.cpp)
 - [x] [ex09: references.cpp](./09-references/main.cpp)
 - [x] [ex10: pointers.cpp](./10-pointers/main.cpp)
+- [x] [ex11: conditionals.cpp](./11-conditionals/main.cpp)
 
 ## References
 
