@@ -17,6 +17,7 @@
 - [x] [ex06: arithmetic_operators.cpp](./06-arithmetic-operators/main.cpp)
 - [x] [ex07: increment_operators.cpp](./07-increment-operators/main.cpp)
 - [x] [ex08: assignment_relational_logical_operators.cpp](./08-assignment-relational-logical-operators/main.cpp)
+- [x] [prj01: currency_converter.cpp](./prj-01-currency/main.cpp)
 - [x] [ex09: references.cpp](./09-references/main.cpp)
 - [x] [ex10: pointers.cpp](./10-pointers/main.cpp)
 - [x] [ex11: conditionals.cpp](./11-conditionals/main.cpp)
