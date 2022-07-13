@@ -42,3 +42,15 @@ The `for` loop statement is made of three parts.
     std::cout << i;
   }
 ```
+
+## for-each loops
+
+for-each loop is useful when iterating through list-like structures such as arrays
+and vectors.
+
+```c++
+  int numbers[5] = {5, 4, 3, 2, 1};
+  for (int num : numbers) {
+    std::cout << num;
+  }
+```

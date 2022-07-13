@@ -23,7 +23,7 @@
 - [x] [ex11: conditionals.cpp](./11-conditionals/main.cpp)
 - [x] [ex12: switch.cpp](./12-switch-case/main.cpp)
 - [x] [Loops](./13-loops/readme.md)
-- [x] [ex13: while.cpp](./13-loops/while.cpp) | [ex13: do_while](./13-loops/do_while.cpp) | [ex13: for](./13-loops/for.cpp)
+- [x] [ex13: while.cpp](./13-loops/while.cpp) | [ex13: do_while](./13-loops/do_while.cpp) | [ex13: for](./13-loops/for.cpp) | [ex14: for each](./13-loops/for_each.cpp)
 
 ## References
 
