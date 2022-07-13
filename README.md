@@ -22,6 +22,7 @@
 - [x] [ex10: pointers.cpp](./10-pointers/main.cpp)
 - [x] [ex11: conditionals.cpp](./11-conditionals/main.cpp)
 - [x] [ex12: switch.cpp](./12-switch-case/main.cpp)
+- [x] [ex13: while.cpp](./13-loops/while.cpp)
 
 ## References
 
