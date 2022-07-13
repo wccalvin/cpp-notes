@@ -26,3 +26,19 @@ Similar to while loop, but it will always execute the statement at least once.
 ```
 
 Unlike the while loop, a semi-colon needs to be placed to terminate the statement.
+
+## for loops
+
+It is used when the number of times the code block to be executed is known.
+
+The `for` loop statement is made of three parts.
+
+- initialization counter: which is executed only once at start.
+- condtion: for executing the code block if true.
+- increment/decrement counter: executed at the end of every iteration.
+
+```c++
+  for (int i = 5; i >= 1; i--) {
+    std::cout << i;
+  }
+```
