@@ -54,3 +54,11 @@ and vectors.
     std::cout << num;
   }
 ```
+
+## break keyword
+
+`break` keyword terminates the loop.
+
+## continue keyword
+
+`continue` keyword, skips over the iteration based on condition.
