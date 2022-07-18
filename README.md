@@ -24,6 +24,7 @@
 - [x] [ex12: switch.cpp](./12-switch-case/main.cpp)
 - [x] [Loops](./13-loops/readme.md)
 - [x] [ex13: while.cpp](./13-loops/while.cpp) | [ex13: do_while](./13-loops/do_while.cpp) | [ex13: for](./13-loops/for.cpp) | [ex13: for each](./13-loops/for_each.cpp) | [ex13: break-continue](./13-loops/break_continue.cpp)
+- [x] [prj02: rock_paper_scissors_lizard_spock.cpp](./prj02-rock-paper-scissors/main.cpp)
 
 ## References
 
