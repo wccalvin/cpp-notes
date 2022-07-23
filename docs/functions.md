@@ -60,3 +60,7 @@ arguments.
 
 - When defining a function with multiple parameters, all default parameters should follow
 any non-default parameters.
+
+### Passing reference
+
+Passing reference lets the function modify argument values.

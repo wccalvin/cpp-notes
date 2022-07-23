@@ -29,6 +29,13 @@ std::string favCode(std::string name, std::string language = "C++") {
   return msg;
 }
 
+// function with reference as argument values
+void swap(int &a, int &b) {
+  int x = b;
+  b = a;
+  a = x;
+}
+
 int main() {
   // function call with no return values
   hello();
@@ -55,6 +62,20 @@ int main() {
 
   std::cout << msg_default << std::endl;
   std::cout << msg_python << std::endl;
+
+  // function call with arguments as reference
+  int i = 6;
+  int j = 9;
+
+  std::cout << "Before swap.\n";
+  std::cout << "value of i: " << i << std::endl;
+  std::cout << "value of j: " << j << std::endl;
+
+  swap(i, j);
+
+  std::cout << "After swap.\n";
+  std::cout << "value of i: " << i << std::endl;
+  std::cout << "value of j: " << j << std::endl;
 
   return 0;
 }
