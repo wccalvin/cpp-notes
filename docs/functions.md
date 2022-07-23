@@ -46,3 +46,17 @@ Parameters are variables that acts as placeholders for values to be passed to a 
 
 - Function argument is a value that is passed to the function.
 - Argument must be of the same data type as the parameter.
+
+### Multiple parameters
+
+- Functions can have more than one parameters.
+- Arguments in the function call must include the same number of parameters.
+- Corresponding arguments must be passed in the same order.
+
+### Default parameters
+
+- Default parameters make it possible to call a function without including all the
+arguments.
+
+- When defining a function with multiple parameters, all default parameters should follow
+any non-default parameters.
