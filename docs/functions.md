@@ -32,3 +32,17 @@ int main() {
   - it should be declared using the right datatype, just like variables.
   - definition should include the `return` keyword.
 - variables declared inside the function are only accessible within the function.
+
+## Function parameters
+
+Parameters are variables that acts as placeholders for values to be passed to a function.
+
+### Parameters
+
+- Function parameters are defined within the parentheses `()` after the function name.
+- Each parameter should be defined with a *name* and *data type*.
+
+### Arguments
+
+- Function argument is a value that is passed to the function.
+- Argument must be of the same data type as the parameter.
