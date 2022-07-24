@@ -36,6 +36,19 @@ void swap(int &a, int &b) {
   a = x;
 }
 
+// function overloading
+int add(int a, int b) {
+  return a + b;
+}
+
+double add(double a, double b) {
+  return a + b;
+}
+
+int add(int a, int b, int c) {
+  return a + b + c;
+}
+
 int main() {
   // function call with no return values
   hello();
@@ -76,6 +89,21 @@ int main() {
   std::cout << "After swap.\n";
   std::cout << "value of i: " << i << std::endl;
   std::cout << "value of j: " << j << std::endl;
+
+  // function call for overloaded functions
+  int a = 5;
+  int b = 10;
+  int c = 15;
+  double d = 12.5;
+  double e = 18.25;
+
+  int add_two_int = add(a, b);
+  double add_two_double = add(d, e);
+  int add_three_int = add(a, b, c);
+
+  std::cout << a << " + " << b << " = " << add_two_int << std::endl;
+  std::cout << d << " + " << e << " = " << add_two_double << std::endl;
+  std::cout << a << " + " << b << " + " << c << " = " << add_three_int << std::endl;
 
   return 0;
 }

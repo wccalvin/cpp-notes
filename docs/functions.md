@@ -64,3 +64,15 @@ any non-default parameters.
 ### Passing reference
 
 Passing reference lets the function modify argument values.
+
+## Function overloading
+
+In C++, *function overloading* allows multiple functions to have the same name as long as
+the parameters are different.
+
+*Overload differentiation*: In order for the compiler to differentiate overloaded function,
+one of the below properties should be true,
+
+- *data types* for the *parameters* should be different.
+- different number of parameters.
+- Note: function return type is not used to differentiate overloaded functions.
