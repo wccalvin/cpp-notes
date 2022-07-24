@@ -41,6 +41,7 @@ int main() {
   std::cout << "rock paper scissors lizard spock!\n";
   std::cout << "=================================\n";
 
+  std::cout << "Pick from 1 to 5.\n";
   std::cout << "(1) rock\n";
   std::cout << "(2) paper\n";
   std::cout << "(3) scissors\n";
