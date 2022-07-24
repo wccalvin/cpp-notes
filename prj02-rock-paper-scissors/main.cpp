@@ -41,11 +41,11 @@ int main() {
   std::cout << "rock paper scissors lizard spock!\n";
   std::cout << "=================================\n";
 
-  std::cout << "1) rock\n";
-  std::cout << "2) paper\n";
-  std::cout << "3) scissors\n";
-  std::cout << "4) lizard\n";
-  std::cout << "5) spock\n";
+  std::cout << "(1) rock\n";
+  std::cout << "(2) paper\n";
+  std::cout << "(3) scissors\n";
+  std::cout << "(4) lizard\n";
+  std::cout << "(5) spock\n";
 
   // get user input
   std::cout << "=================================\n"
