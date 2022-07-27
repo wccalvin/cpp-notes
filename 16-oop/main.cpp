@@ -21,6 +21,23 @@ int main() {
     }
   };  // semi-colon is required
 
+  // example of access control
+  class Fruit {
+   private:
+    std::string name;
+
+   public:
+    double price = 6.79;
+
+    std::string getName() {
+      return name;
+    }
+
+    void setName(std::string str) {
+      name = str;
+    }
+  };
+
   // create an object
   Dog caylie;
   caylie.breed = "cavapoo";
@@ -35,6 +52,13 @@ int main() {
   lily.age = 8;
   lily.name = "Lily";
   lily.info();
+
+  // object with access control
+  Fruit fruit;
+  fruit.setName("Apple");
+  std::string fruit_name = fruit.getName();
+  std::cout << "Fruit: " << fruit_name << std::endl;
+  std::cout << "Price: " << fruit.price << std::endl;
 
   return 0;
 }

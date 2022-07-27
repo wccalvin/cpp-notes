@@ -1,11 +1,11 @@
 # Object Oriented Programming (OOP)
 
-*Object oriented programming* is a paradigm which allows to package both data, functions
+_Object oriented programming_ is a paradigm which allows to package both data, functions
 and ability to store and modify the states of the data.
 
 ## Classes
 
-*classes* are blue print for objects. A semi-colon is required to terminate the class.
+_classes_ are blue print for objects. A semi-colon is required to terminate the class.
 
 ```c++
 class ClassName {
@@ -38,7 +38,7 @@ instance.method();
 
 ## Access Specifiers
 
-*Access specifiers* provides the control access for class members. It determines the
+_Access specifiers_ provides the control access for class members. It determines the
 scope of class attributes and methods.
 
 ### Private
@@ -51,4 +51,23 @@ the class.
 
 ### Public
 
- The `public` access specifier provides access to members outside the class.
+The `public` access specifier provides access to members outside the class.
+
+### Protected
+
+It works much like private access specifier, but allows inherited classes to access those
+class members.
+
+## Accessor Function
+
+An _accessor function_, also known as a "getter" function is a public function that
+returns the value of a `private` member variable.
+
+- accessor function has the same data type as the member variable.
+
+## Mutator Function
+
+A _mutator function_, also known as a "setter" function is a public function that sets
+the value of a `private` member variable.
+
+- mutator function usually have `void` as the data type.
