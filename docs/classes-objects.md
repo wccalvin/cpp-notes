@@ -5,7 +5,7 @@ and ability to store and modify the states of the data.
 
 ## Classes
 
-*classes* are blue print for objects.
+*classes* are blue print for objects. A semi-colon is required to terminate the class.
 
 ```c++
 class ClassName {
@@ -35,3 +35,20 @@ instance.x = "xyz";
 // calling methods
 instance.method();
 ```
+
+## Access Specifiers
+
+*Access specifiers* provides the control access for class members. It determines the
+scope of class attributes and methods.
+
+### Private
+
+By default all class members are declared `private`. They are not accessible from outside
+the class.
+
+- Everything declared under `private:` keyword is private.
+- Declare class attributes as `private` whenever possible.
+
+### Public
+
+ The `public` access specifier provides access to members outside the class.

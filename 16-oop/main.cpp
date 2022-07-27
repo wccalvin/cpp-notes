@@ -2,7 +2,7 @@
 #include <string>
 
 int main() {
-  // define class name starting with caps
+  // basic example of class definitions
   class Dog {
     // public keyword is an access specifier. public allows the members of the class to
     // be accessed from outside of the class
@@ -29,7 +29,7 @@ int main() {
   caylie.bark();
   caylie.info();
 
-  // create multiple objects
+  // create multiple objects (another object from the same class)
   Dog lily;
   lily.breed = "havanese";
   lily.age = 8;
