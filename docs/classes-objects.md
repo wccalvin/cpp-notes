@@ -71,3 +71,9 @@ A _mutator function_, also known as a "setter" function is a public function tha
 the value of a `private` member variable.
 
 - mutator function usually have `void` as the data type.
+
+## Constructor
+
+A constructor in C++ is a special kind of method that is called automatically when the
+class is instantiated. Constructors are used to initialize class attributes and perform
+any setup work.

@@ -28,7 +28,7 @@
 - [x] [Functions](./docs/functions.md)
 - [x] [ex14: functions.cpp](./14-functions/main.cpp)
 - [x] [Classes and Objects](./docs/classes-objects.md)
-- [x] [ex15: oop.cpp](./16-oop/main.cpp)
+- [x] [ex15: oop_basics.cpp](./16-oop-basics/main.cpp)
 
 ## References
 
