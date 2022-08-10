@@ -46,7 +46,7 @@ int main() {
   caylie.bark();
   caylie.info();
 
-  // create multiple objects (another object from the same class)
+  // create another object from the same class
   Dog lily;
   lily.breed = "havanese";
   lily.age = 8;

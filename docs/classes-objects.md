@@ -72,8 +72,16 @@ the value of a `private` member variable.
 
 - mutator function usually have `void` as the data type.
 
-## Constructor
+## Constructors
 
 A constructor in C++ is a special kind of method that is called automatically when the
 class is instantiated. Constructors are used to initialize class attributes and perform
 any setup work.
+
+- Note: **Constructor** has the same name as the class and it has no return type (not even void).
+
+### Types of Constructors
+
+- Default constructor - It takes no parameters.
+- Constructor with parameters.
+- Constructor with default parameters.
