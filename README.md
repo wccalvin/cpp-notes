@@ -23,12 +23,17 @@
 - [x] [ex11: conditionals.cpp](./11-conditionals/main.cpp)
 - [x] [ex12: switch.cpp](./12-switch-case/main.cpp)
 - [x] [Loops](./docs/loops.md)
-- [x] [ex13: while.cpp](./13-loops/while.cpp) | [ex13: do_while](./13-loops/do_while.cpp) | [ex13: for](./13-loops/for.cpp) | [ex13: for each](./13-loops/for_each.cpp) | [ex13: break-continue](./13-loops/break_continue.cpp)
+- [x] [ex13: while.cpp](./13-loops/while.cpp)
+- [x] [ex14: do_while](./13-loops/do_while.cpp)
+- [x] [ex15: for](./13-loops/for.cpp)
+- [x] [ex16: for each](./13-loops/for_each.cpp)
+- [x] [ex17: break-continue](./13-loops/break_continue.cpp)
 - [x] [prj02: rock_paper_scissors_lizard_spock.cpp](./prj02-rock-paper-scissors/main.cpp)
 - [x] [Functions](./docs/functions.md)
-- [x] [ex14: functions.cpp](./14-functions/main.cpp)
+- [x] [ex18: functions.cpp](./14-functions/main.cpp)
 - [x] [Classes and Objects](./docs/classes-objects.md)
-- [x] [ex15: oop_basics.cpp](./16-oop-basics/main.cpp)
+- [x] [ex19: oop_basics.cpp](./16-oop-basics/main.cpp)
+- [x] [ex20: oop_constructors.cpp](./17-oop-constructors/main.cpp)
 
 ## References
 
