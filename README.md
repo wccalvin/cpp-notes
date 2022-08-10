@@ -29,7 +29,7 @@
 - [x] [ex15: for](./13-loops/for.cpp)
 - [x] [ex16: for each](./13-loops/for_each.cpp)
 - [x] [ex17: break-continue](./13-loops/break_continue.cpp)
-- [x] [prj02: rock_paper_scissors_lizard_spock.cpp](./prj03-rock-paper-scissors/main.cpp)
+- [x] [prj03: rock_paper_scissors_lizard_spock.cpp](./prj03-rock-paper-scissors/main.cpp)
 - [x] [Functions](./docs/functions.md)
 - [x] [ex18: functions.cpp](./14-functions/main.cpp)
 - [x] [Classes and Objects](./docs/classes-objects.md)
