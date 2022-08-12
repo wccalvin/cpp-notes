@@ -20,6 +20,7 @@
 - [x] [prj01: currency_converter.cpp](./prj01-currency/main.cpp)
 - [x] [prj02: days_to_week_converter.cpp](./prj02-days-to-weeks/main.cpp)
 - [x] [prj03: area_of_circle.cpp](./prj03-circle-area/main.cpp)
+- [x] [prj04: char_to_ascii.cpp](./prj04-char-ascii/main.cpp) (type casting included)
 - [x] [ex09: references.cpp](./09-references/main.cpp)
 - [x] [ex10: pointers.cpp](./10-pointers/main.cpp)
 - [x] [ex11: conditionals.cpp](./11-conditionals/main.cpp)
