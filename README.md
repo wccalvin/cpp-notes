@@ -43,3 +43,4 @@
 
 - [codecademy: C++ for Programmers](https://www.codecademy.com/learn/c-plus-plus-for-programmers)
 - [Introduction to Programming in C++](https://learning.edx.org/course/course-v1:NYUx+CPP.PRG.1+3T2020/home)
+- [udacity: C++ for Programmers](https://learn.udacity.com/courses/ud210)
