@@ -85,3 +85,41 @@ any setup work.
 - Default constructor - It takes no parameters.
 - Constructor with parameters.
 - Constructor with default parameters.
+
+### Member initializer list
+
+The constructor examples shown [here](../17-oop-constructors/main.cpp) has been assigning
+values instead of initializing them. That becomes a problem when using `const` or `references`.
+
+```c++
+#include <string>
+
+class Book {
+  private:
+    const std::string title;
+    const int pages;
+
+  public:
+    Book() {
+      title = "Atomic Habits";  // Error: const variable cannot be reassigned
+      pages = 280;  // Error: const variables cannot be reassigned
+    }
+};
+```
+
+To solve this problem C++ has member initializer list. See usage below.
+
+```c++
+#include <string>
+
+class Book {
+  private:
+    const std::string title;
+    const int pages;
+
+  public:
+    Book() {
+      : title("Atomic Habits"), pages(280) {}  // member initializer list
+    }
+}
+```
