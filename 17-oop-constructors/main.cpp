@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+
 class Car {
  private:
   std::string make;
@@ -19,10 +20,40 @@ class Car {
   }
 };
 
+class Fruit {
+ private:
+  std::string name;
+  std::string taste;
+
+ public:
+  // default constructor
+  Fruit() {
+    name = "Apple";
+    taste = "Tart";
+  }
+  // constructor with parameters (method overloading)
+  Fruit(std::string fruit, std::string fruit_taste) {
+    name = fruit;
+    taste = fruit_taste;
+  }
+
+  void summary() {
+    std::cout << name << " tastes " << taste << ".\n";
+  }
+};
+
 int main() {
   // object using default constructor
   Car wrx;
   wrx.summary();
+
+  // object using default constructor
+  Fruit apple;
+  apple.summary();
+
+  // object to pass arguments to constructor
+  Fruit grapes("grapes", "sweet");
+  grapes.summary();
 
   return 0;
 }
