@@ -42,6 +42,22 @@ class Fruit {
   }
 };
 
+class Television {
+ private:
+  std::string brand;
+  int screen_size;
+
+ public:
+  Television(std::string name = "Sony", int size = 75) {
+    brand = name;
+    screen_size = size;
+  }
+
+  void summary() {
+    std::cout << brand << " " << screen_size << " inches.\n";
+  }
+};
+
 int main() {
   // object using default constructor
   Car wrx;
@@ -51,9 +67,17 @@ int main() {
   Fruit apple;
   apple.summary();
 
-  // object to pass arguments to constructor
+  // object to pass arguments to constructor (overloaded constructor)
   Fruit grapes("grapes", "sweet");
   grapes.summary();
+
+  // object using default constructor
+  Television sony;
+  sony.summary();
+
+  // object to pass arguments to constructor
+  Television samsung("Samsung", 85);
+  samsung.summary();
 
   return 0;
 }
