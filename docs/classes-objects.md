@@ -141,3 +141,7 @@ to avoid repeatability of code.
 
 This is a more realistic use-case than using public access specifier. The derived class
 also inherits constructors of its base class using the members initializer list.
+
+### Polymorphism
+
+Polymorphism allows a derived class to override the methods from its base class.
