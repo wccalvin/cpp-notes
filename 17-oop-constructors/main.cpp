@@ -56,6 +56,10 @@ class Television {
   void summary() {
     std::cout << brand << " " << screen_size << " inches.\n";
   }
+
+  ~Television() {
+    std::cout << "Sold " << brand << std::endl;
+  }
 };
 
 int main() {

@@ -123,3 +123,16 @@ class Book {
     }
 }
 ```
+
+### Destructor
+
+Destructor is another special class which is automatically called when the object is
+destroyed.
+
+## Inheritance
+
+Inheritance is the concept of defining class abstraction to take advantage of reusability
+to avoid repeatability of code.
+
+- base class: also called as parent class. The class being inherited from.
+- derived class: also called as child class. The class that inherits from base class.
