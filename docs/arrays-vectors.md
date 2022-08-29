@@ -1,4 +1,6 @@
-# Arrays
+# Arrays and Vectors
+
+## Arrays
 
 In C++, arrays are the fixed collection of items of the same type.
 
@@ -16,9 +18,31 @@ char caps[3] = {'A', 'B', 'C'}
 This implies that the array will be just big enough to contain the initialized values.
 - Arrays can be modified with new value.
 
-## Multi-dimensional Array
+### Multi-dimensional Array
 
 Since arrays are fixed collection of things, it is possible to have array of arrays or
 multi-dimensional array.
 
 - Multi-dimensional array declaration should end with `;`
+
+## Vectors
+
+Similar to arrays, vectors are used to store sequence of data. However, vector can
+dynamically shrink and grow in size.
+
+- elements can be added or removed from the vector after declaration.
+
+```c++
+#include <vector>
+
+std::vector<char> alpha = {'a', 'b', 'c'};
+```
+
+### Common vector methods
+
+- Adding an element to the end of the vector (`.push_back.(value)`)
+- Removing an element from the end of the vector (`.pop_back()`) - note, `pop_back` has no return value.
+- Elements in the vector can be accessed the same way as arrays.
+- C++ offers two methods to access first and last element of a vector (`.front()` and `.back()`)
+- Size of the vector (`.size()`)
+- To check if the vector is empty (`.empty()`) - returns a boolean value.
