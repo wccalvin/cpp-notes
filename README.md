@@ -42,6 +42,7 @@
 - [x] [ex21: oop_inheritance.cpp](./18-oop-inheritance/main.cpp)
 - [x] [ex22: oop_polymorphism.cpp](./19-oop-polymorphism/main.cpp)
 - [x] [Arrays and Vectors](./docs/arrays-vectors.md)
+- [x] [Stacks and Queues](./docs/stacks-queues.md)
 
 ## References
 
