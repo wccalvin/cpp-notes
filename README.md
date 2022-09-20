@@ -1,4 +1,4 @@
-# C++ Notes
+# C++ Notes and Code Examples
 
 ## Contents
 
