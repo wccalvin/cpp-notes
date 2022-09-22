@@ -5,7 +5,7 @@
 - [x] [How to execute C++ program](./docs/execute.md)
 - [x] [Program structure](./docs/hello.md)
 - [x] [Comments](./docs/comments.md)
-- [x] [ex01: hello.cpp](./01-hello/main.cpp)
+- [x] First program with namespace variations [hello-1.cpp](./01-hello/hello-1.cpp) | [hello-2.cpp](./01-hello/hello-2.cpp) | [hello-3.cpp](./01-hello/hello-3.cpp)
 - [x] [Output](./docs/output.md)
 - [x] [Input](./docs/input.md)
 - [x] [ex02: console.cpp](./02-console/main.cpp)
