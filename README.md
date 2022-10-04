@@ -37,6 +37,7 @@
 - [x] [prj04b: rock_paper_scissors_lizard_spock.cpp](./prj04-rock-paper-scissors/main.cpp)
 - [x] [Functions](./docs/functions.md)
 - [x] [ex18: functions.cpp](./14-functions/main.cpp)
+- [x] [ex18a: recursion.cpp](./14a-recursion/main.cpp)
 - [x] [Classes and Objects](./docs/classes-objects.md)
 - [x] [ex19: oop_basics.cpp](./16-oop-basics/main.cpp)
 - [x] [ex20: oop_constructors.cpp](./17-oop-constructors/main.cpp)
