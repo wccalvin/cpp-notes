@@ -3,6 +3,7 @@
 using namespace std;
 
 /*
+- C++ passes the location of the array and not the copy of values
 - pass through size of the array as well to iterate through array
 - use const when declaring array parameter to protect the array from modification
 */
