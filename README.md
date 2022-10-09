@@ -1,11 +1,11 @@
-# C++ Notes
+# C++ Notes and Code Examples
 
 ## Contents
 
 - [x] [How to execute C++ program](./docs/execute.md)
 - [x] [Program structure](./docs/hello.md)
 - [x] [Comments](./docs/comments.md)
-- [x] [ex01: hello.cpp](./01-hello/main.cpp)
+- [x] First program with namespace variations -> [hello-1.cpp](./01-hello/hello-1.cpp) | [hello-2.cpp](./01-hello/hello-2.cpp) | [hello-3.cpp](./01-hello/hello-3.cpp)
 - [x] [Output](./docs/output.md)
 - [x] [Input](./docs/input.md)
 - [x] [ex02: console.cpp](./02-console/main.cpp)
@@ -53,3 +53,4 @@
 - [codecademy: C++ for Programmers](https://www.codecademy.com/learn/c-plus-plus-for-programmers)
 - [Introduction to Programming in C++](https://learning.edx.org/course/course-v1:NYUx+CPP.PRG.1+3T2020/home)
 - [udacity: C++ for Programmers](https://learn.udacity.com/courses/ud210)
+- [Begining C++ Programming - From Beginner to Beyond](https://www.udemy.com/course/beginning-c-plus-plus-programming/)

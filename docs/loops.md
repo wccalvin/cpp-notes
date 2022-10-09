@@ -43,6 +43,8 @@ The `for` loop statement is made of three parts.
   }
 ```
 
+## range based for loops
+
 ## for-each loops
 
 for-each loop is useful when iterating through list-like structures such as arrays
