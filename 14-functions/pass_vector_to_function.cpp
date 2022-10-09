@@ -13,7 +13,7 @@ int main() {
 }
 
 void print_vector(vector<int> vec_name) {
-    for (int i = 0; i < vec_name.size(); i++) {
-        cout << vec_name[i] << endl;
+    for (int value : vec_name) {
+        cout << value << endl;
     }
 }

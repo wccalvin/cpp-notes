@@ -38,7 +38,7 @@
 - [x] [ex14a: functions.cpp](./14-functions/main.cpp)
 - [x] [ex14b: function_prototype.cpp](./14-functions/function_prototype.cpp)
 - [x] [ex14c: pass_array_to_function.cpp](./14-functions/pass_array_to_function.cpp)
-- [x] [ex14c: pass_vector_to_function.cpp](./14-functions/function_prototype.cpp)
+- [x] [ex14c: pass_vector_to_function.cpp](./14-functions/pass_vector_to_function.cpp)
 - [x] [ex14e: pass_reference_to_function.cpp](./14-functions/pass_reference_to_function.cpp)
 - [x] [ex15: cli.cpp](./15-command-line-args/main.cpp)
 - [x] [Classes and Objects](./docs/classes-objects.md)
@@ -54,7 +54,7 @@
 
 ## References
 
-- [codecademy: C++ for Programmers](https://www.codecademy.com/learn/c-plus-plus-for-programmers)
+- [Codecademy: C++ for Programmers](https://www.codecademy.com/learn/c-plus-plus-for-programmers)
 - [Introduction to Programming in C++](https://learning.edx.org/course/course-v1:NYUx+CPP.PRG.1+3T2020/home)
-- [udacity: C++ for Programmers](https://learn.udacity.com/courses/ud210)
+- [Udacity: C++ for Programmers](https://learn.udacity.com/courses/ud210)
 - [Begining C++ Programming - From Beginner to Beyond](https://www.udemy.com/course/beginning-c-plus-plus-programming/)
