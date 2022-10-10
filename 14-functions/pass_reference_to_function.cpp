@@ -10,12 +10,16 @@ copy of values
 
 void swap_values(int, int);
 void swap_refs(int& a, int& b);
+void pass_refs(int&);
 
 int main() {
     int a = 0;
     int b = 100;
 
-    // swap using values
+    // implementation to pass references
+    pass_refs(b);
+
+    // swap using values (uses formal parameters - copy of values)
     cout << "---- original ----\n";
     cout << "a: " << a << "\nb: " << b << endl;
     cout << "---- swap values ----\n";
@@ -23,7 +27,7 @@ int main() {
     cout << "a: " << a << "\nb: " << b << endl;
     cout << "------------------\n";
 
-    // swap using references
+    // swap using references (uses actual parameters)
     cout << "---- original ----\n";
     cout << "a: " << a << "\nb: " << b << endl;
     swap_refs(a, b);
@@ -44,4 +48,8 @@ void swap_refs(int& a, int& b) {
     int temp = b;
     b = a;
     a = temp;
+}
+
+void pass_refs(int& ref) {
+    cout << ref << endl;
 }
