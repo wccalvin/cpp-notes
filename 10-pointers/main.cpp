@@ -1,5 +1,8 @@
 #include <iostream>
 #include <string>
+#include <vector>
+
+using namespace std;
 
 /*
 Pointers:
@@ -18,20 +21,50 @@ Pointers:
  */
 
 int main() {
-  std::string fruit = "apple";
-  std::string* fruit_address = &fruit;  // declare a pointer
+    cout << "--- uninitialized ---\n";
+    int* uninit;             // uninitialized
+    cout << uninit << endl;  // pointer will contain garbage data
+    cout << "size of uninit: " << sizeof uninit << endl;
+    cout << "address of uninit: " << &uninit << endl;
 
-  std::cout << "name of the fruit: " << fruit << std::endl;
-  std::cout << "pointer to the fruit variable: " << fruit_address << std::endl;
+    cout << "--- initialized with {} ---\n";
+    int* init{};           // initialized
+    cout << init << endl;  // pointer will 0
+    cout << "size of init: " << sizeof init << endl;
+    cout << "address of init: " << &init << endl;
 
-  *fruit_address = "oranges";  // reassign pointer
-  std::cout << "name of the fruit after reassignment: " << fruit << std::endl;
-  std::cout << "address of the fruit after reassignment: " << fruit_address << std::endl;
-  std::cout << "dereference pointer to the fruit variable: " << *fruit_address << std::endl;
+    cout << "--- initialized with nullptr ---\n";
+    int* null_init = nullptr;  // initalize with nullptr
+    cout << null_init << endl;
+    cout << "size of null_init: " << sizeof null_init << endl;
+    cout << "address of null_init: " << &null_init << endl;
 
-  // null pointer example
-  std::string* color = nullptr;
-  std::cout << "pointer to the color variable: " << color << std::endl;
+    cout << "=============\n";
+    cout << "--- different types of pointers ---\n";
+    // all representing 8 bytes in this case
+    int* i{nullptr};
+    double* d{nullptr};
+    unsigned long long* ull{nullptr};
+    vector<string>* v{nullptr};
+    string* s{nullptr};
+    cout << "size of int: " << sizeof i << endl;
+    cout << "size of double: " << sizeof d << endl;
+    cout << "size of unsigned long long: " << sizeof ull << endl;
+    cout << "size of vector: " << sizeof v << endl;
+    cout << "size of string: " << sizeof s << endl;
 
-  return 0;
+    cout << "=============\n";
+
+    string fruit = "apple";
+    string* fruit_address = &fruit;  // declare a pointer
+
+    cout << "name of the fruit: " << fruit << endl;
+    cout << "pointer to the fruit variable: " << fruit_address << endl;
+
+    *fruit_address = "oranges";  // reassign pointer
+    cout << "name of the fruit after reassignment: " << fruit << endl;
+    cout << "address of the fruit after reassignment: " << fruit_address << endl;
+    cout << "dereference pointer to the fruit variable: " << *fruit_address << endl;
+
+    return 0;
 }
