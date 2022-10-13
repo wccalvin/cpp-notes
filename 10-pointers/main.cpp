@@ -54,7 +54,7 @@ int main() {
     cout << "size of string: " << sizeof s << endl;
 
     cout << "=============\n";
-
+    cout << "--- dereferencing a pointer example - 1 ---\n";
     string fruit = "apple";
     string* fruit_address = &fruit;  // declare a pointer
 
@@ -62,9 +62,35 @@ int main() {
     cout << "pointer to the fruit variable: " << fruit_address << endl;
 
     *fruit_address = "oranges";  // reassign pointer
+
     cout << "name of the fruit after reassignment: " << fruit << endl;
     cout << "address of the fruit after reassignment: " << fruit_address << endl;
     cout << "dereference pointer to the fruit variable: " << *fruit_address << endl;
+
+    cout << "--- dereferencing a pointer example - 2 ---\n";
+    int high = 100;
+    int low = 10;
+    int* high_ptr = &high;  // assigning values to pointer
+
+    cout << "high_ptr: " << high_ptr << endl;
+    cout << "high_ptr value: " << *high_ptr << endl;  // dereferencing a pointer
+
+    high_ptr = &low;  // reassigning pointer reference
+
+    cout << "- after reassignment of pointers -\n";
+    cout << "high_ptr: " << high_ptr << endl;
+    cout << "high_ptr value: " << *high_ptr << endl;  // dereferencing a pointer
+
+    cout << "--- dereferencing a pointer example - 3 ---\n";
+    vector<char> alpha{'a', 'b', 'c'};
+    vector<char>* alpha_ptr = &alpha;
+
+    cout << "second element of the vector using pointer: " << (*alpha_ptr).at(1) << endl;
+    cout << "contents of alpha using pointer: " << endl;
+    for (auto i : *alpha_ptr) {
+        cout << i << " ";
+    }
+    cout << endl;
 
     return 0;
 }
