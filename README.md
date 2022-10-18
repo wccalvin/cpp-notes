@@ -26,6 +26,8 @@
 - [x] [ex09: references.cpp](./09-references/main.cpp)
 - [x] [ex10a: pointers.cpp](./10-pointers/main.cpp)
 - [x] [ex10b: memory_allocation.cpp](./10-pointers/memory_allocation.cpp)
+- [x] [ex10c: arrays_and_pointers.cpp](./10-pointers/array_and_pointers.cpp)
+- [x] [ex10d: pointer_arithmetic.cpp](./10-pointers/pointer_arithmetic.cpp)
 - [x] [ex11: conditionals.cpp](./11-conditionals/main.cpp)
 - [x] [ex12: switch.cpp](./12-switch-case/main.cpp)
 - [x] [Loops](./docs/loops.md)
