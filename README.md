@@ -28,6 +28,7 @@
 - [x] [ex10b: memory_allocation.cpp](./10-pointers/memory_allocation.cpp)
 - [x] [ex10c: arrays_and_pointers.cpp](./10-pointers/array_and_pointers.cpp)
 - [x] [ex10d: pointer_arithmetic.cpp](./10-pointers/pointer_arithmetic.cpp)
+- [x] [ex10e: const_pointers.cpp](./10-pointers/const_pointers.cpp)
 - [x] [ex11: conditionals.cpp](./11-conditionals/main.cpp)
 - [x] [ex12: switch.cpp](./12-switch-case/main.cpp)
 - [x] [Loops](./docs/loops.md)
