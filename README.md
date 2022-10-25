@@ -30,6 +30,7 @@
 - [x] [ex10d: pointer_arithmetic.cpp](./10-pointers/pointer_arithmetic.cpp)
 - [x] [ex10e: const_pointers.cpp](./10-pointers/const_pointers.cpp)
 - [x] [ex10f: pointers_and_function.cpp](./10-pointers/pointers_and_function.cpp)
+- [x] [ex10g: pointer_pitfalls.cpp](./10-pointers/pointer_pitfalls.cpp)
 - [x] [ex11: conditionals.cpp](./11-conditionals/main.cpp)
 - [x] [ex12: switch.cpp](./12-switch-case/main.cpp)
 - [x] [Loops](./docs/loops.md)
