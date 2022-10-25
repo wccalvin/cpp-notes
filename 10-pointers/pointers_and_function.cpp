@@ -36,6 +36,15 @@ float *find_small(float *a, float *b)
 }
 
 // return dynamically allocated memory
+int *create_int_array(size_t array_size, int initial_value = 0)
+{
+  int *memory_location = new int[array_size];
+  for (size_t i = 0; i < array_size; i++)
+  {
+    *(memory_location + i) = initial_value;
+  }
+  return memory_location;
+}
 
 int main()
 {
@@ -67,6 +76,16 @@ int main()
   float *smallest_ptr{nullptr};
   smallest_ptr = find_small(&a, &b);
   cout << "found " << *smallest_ptr << " to be the smallest, located at " << smallest_ptr << endl;
+
+  // return pointer from the heap (free-store)
+  cout << "\n-- return dynamically allocated memory --\n";
+  int *new_array_pointer = create_int_array(10, 3); // allocates heap memory
+  for (size_t i{0}; i < 10; i++)
+  {
+    cout << "index: " << i << "; pointer: " << new_array_pointer + i
+         << "; value: " << *(new_array_pointer + i) << endl;
+  }
+  delete[] new_array_pointer; // releases heap memory to avoid memory leak
 
   return 0;
 }
