@@ -49,6 +49,8 @@
 - [x] [ex14e: pass_reference_to_function.cpp](./14-functions/pass_reference_to_function.cpp)
 - [x] [ex15: cli.cpp](./15-command-line-args/main.cpp)
 - [x] [Classes and Objects](./docs/classes-objects.md)
+- [x] [ex16a: declare.cpp](./16-oop-basics/declare.cpp)
+- [x] [ex16b: access.cpp](./16-oop-basics/access.cpp)
 - [x] [ex16: oop_basics.cpp](./16-oop-basics/main.cpp)
 - [x] [ex17: oop_constructors.cpp](./17-oop-constructors/main.cpp)
 - [x] [ex18: oop_inheritance.cpp](./18-oop-inheritance/main.cpp)
