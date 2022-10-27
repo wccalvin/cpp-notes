@@ -55,8 +55,7 @@ The `public` access specifier provides access to members outside the class.
 
 ### Protected
 
-It works much like private access specifier, but allows inherited classes to access those
-class members.
+It works much like private access specifier, but allows inherited classes to access those class members.
 
 ## Accessor Function
 
