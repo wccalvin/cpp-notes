@@ -8,9 +8,9 @@ class Player
 {
 public:
   // attributes
-  string name{};
-  int health{};
-  int xp{};
+  string name;
+  int health;
+  int xp;
 
   // methods
   void talk(string); // function prototypes
@@ -20,8 +20,8 @@ public:
 class Account
 {
 public:
-  string name{};
-  double balance{};
+  string name;
+  double balance;
 
   bool deposit(double);
   bool withdraw(double);
