@@ -1,39 +1,48 @@
 #include <iostream>
 #include <string>
 
-int main() {
+using namespace std;
+
+int main()
+{
   // basic example of class definitions
-  class Dog {
+  class Dog
+  {
     // public keyword is an access specifier. public allows the members of the class to
     // be accessed from outside of the class
-   public:
-    std::string breed;
-    std::string name;
+  public:
+    string breed;
+    string name;
     int age;
 
-    void bark() {
-      std::cout << name << " says woof woof!\n";
+    void bark()
+    {
+      cout << name << " says woof woof!\n";
     }
 
-    void info() {
-      std::cout << name << " is a " << breed << " and " << age << " weeks old."
-                << std::endl;
+    void info()
+    {
+      cout << name << " is a " << breed << " and " << age << " weeks old."
+           << endl;
     }
-  };  // semi-colon is required
+  }; // semi-colon is required
 
   // example of access control
-  class Fruit {
-   private:
-    std::string name;
+  class Fruit
+  {
+  private:
+    string name;
 
-   public:
+  public:
     double price = 6.79;
 
-    std::string getName() {
+    string getName()
+    {
       return name;
     }
 
-    void setName(std::string str) {
+    void setName(string str)
+    {
       name = str;
     }
   };
@@ -56,9 +65,9 @@ int main() {
   // object with access control
   Fruit fruit;
   fruit.setName("Apple");
-  std::string fruit_name = fruit.getName();
-  std::cout << "Fruit: " << fruit_name << std::endl;
-  std::cout << "Price: " << fruit.price << std::endl;
+  string fruit_name = fruit.getName();
+  cout << "Fruit: " << fruit_name << endl;
+  cout << "Price: " << fruit.price << endl;
 
   return 0;
 }
