@@ -20,14 +20,14 @@ private:
 
 public:
   // inline method declaration
-  void add_to_balance(double given_balance)
+  void deposit(double given_balance)
   {
     cout << "add " << given_balance << " to existing " << balance << " amount." << endl;
     balance += given_balance;
     cout << "current balance is at " << balance << endl;
   }
 
-  double get_balance()
+  double show_balance()
   {
     return balance;
   }
@@ -54,10 +54,10 @@ int main()
   cout << "-- example of method inline class declaration --\n";
   Account clayton_account;
   clayton_account.set_name("Clayton");
-  clayton_account.add_to_balance(2000.34);
+  clayton_account.deposit(2000.34);
   cout << clayton_account.get_name() << " account has a balance of "
-       << clayton_account.get_balance() << endl;
-  clayton_account.add_to_balance(55.99);
+       << clayton_account.show_balance() << endl;
+  clayton_account.deposit(55.99);
   cout << clayton_account.get_name() << " account has a balance of "
-       << clayton_account.get_balance() << endl;
+       << clayton_account.show_balance() << endl;
 }

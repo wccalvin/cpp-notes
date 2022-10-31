@@ -53,6 +53,7 @@
 - [x] [ex16b: access.cpp](./16-oop-basics/access.cpp)
 - [x] [ex16c: methods_declaration.cpp](./16-oop-basics/methods_declaration.cpp)
 - [x] [ex16d: oop_basics_example.cpp](./16-oop-basics/main.cpp)
+- [x] [ex16e: seperate_implementation.cpp](./16-oop-basics/account_implementation/)
 - [x] [ex17: oop_constructors.cpp](./17-oop-constructors/main.cpp)
 - [x] [ex18: oop_inheritance.cpp](./18-oop-inheritance/main.cpp)
 - [x] [ex19: oop_polymorphism.cpp](./19-oop-polymorphism/main.cpp)
