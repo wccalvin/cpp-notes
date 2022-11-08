@@ -5,7 +5,6 @@
 
 class Account
 {
-public:
 private:
   std::string name;
   double balance;
