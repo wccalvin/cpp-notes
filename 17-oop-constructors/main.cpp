@@ -1,81 +1,95 @@
 #include <iostream>
 #include <string>
 
-class Car {
- private:
-  std::string make;
-  std::string model;
+using namespace std;
+
+class Car
+{
+private:
+  string make;
+  string model;
   int horse_power;
 
- public:
+public:
   // Default constructor
-  Car() {
+  Car()
+  {
     make = "Subaru";
     model = "WRX";
     horse_power = 258;
   }
 
-  void summary() {
-    std::cout << make + " " + model + " has " << horse_power << " hp." << std::endl;
+  void summary()
+  {
+    cout << make + " " + model + " has " << horse_power << " hp." << endl;
   }
 };
 
-class Fruit {
- private:
-  std::string name;
-  std::string taste;
+class Fruit
+{
+private:
+  string name;
+  string taste;
 
- public:
+public:
   // default constructor
-  Fruit() {
+  Fruit()
+  {
     name = "Apple";
     taste = "Tart";
   }
   // constructor with parameters (method overloading)
-  Fruit(std::string fruit, std::string fruit_taste) {
+  Fruit(string fruit, string fruit_taste)
+  {
     name = fruit;
     taste = fruit_taste;
   }
 
-  void summary() {
-    std::cout << name << " tastes " << taste << ".\n";
+  void summary()
+  {
+    cout << name << " tastes " << taste << ".\n";
   }
 };
 
-class Television {
- private:
-  std::string brand;
+class Television
+{
+private:
+  string brand;
   int screen_size;
 
- public:
-  Television(std::string name = "Sony", int size = 75) {
+public:
+  Television(string name = "Sony", int size = 75)
+  {
     brand = name;
     screen_size = size;
   }
 
-  void summary() {
-    std::cout << brand << " " << screen_size << " inches.\n";
+  void summary()
+  {
+    cout << brand << " " << screen_size << " inches.\n";
   }
 
-  ~Television() {
-    std::cout << "Sold " << brand << std::endl;
+  ~Television()
+  {
+    cout << "Sold " << brand << endl;
   }
 };
 
-int main() {
-  // object using default constructor
+int main()
+{
+  // using default constructor
   Car wrx;
   wrx.summary();
 
-  // object using default constructor
+  // using default constructor
   Fruit apple;
   apple.summary();
 
-  // object to pass arguments to constructor (overloaded constructor)
+  // pass arguments to constructor (overloaded constructor)
   Fruit grapes("grapes", "sweet");
   grapes.summary();
 
-  // object using default constructor
+  // using default constructor
   Television sony;
   sony.summary();
 
