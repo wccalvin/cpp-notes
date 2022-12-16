@@ -1,8 +1,10 @@
 #include <iostream>
 
-int main() {
+int main()
+{
   int cost = 20;
-  do {
+  do
+  {
     std::cout << "Too expensive.\n";
   } while (cost > 30);
 

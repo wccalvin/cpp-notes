@@ -1,8 +1,10 @@
 #include <iostream>
 
-int main() {
+int main()
+{
   int count = 5;
-  while (count >= 1) {
+  while (count >= 1)
+  {
     std::cout << count;
     count--;
   }
