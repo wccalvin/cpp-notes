@@ -7,7 +7,8 @@
 - same logic holds good for decrement (--)
 */
 
-int main() {
+int main()
+{
   // pre-increment example
   int x = 5;
   std::cout << "x before pre-increment: " << x << std::endl;

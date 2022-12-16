@@ -4,7 +4,8 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
     // int
     int num = 4;
     cout << "type: int; value: " << num << endl;
@@ -18,7 +19,7 @@ int main() {
     cout << "type: unsigned long int; value: " << population_of_usa << endl;
 
     // long long
-    long long population_on_earth{7'600'000'000};  // C++ 14 feature - single quote for legibility
+    long long population_on_earth{7'600'000'000}; // C++ 14 feature - single quote for legibility
     cout << "type: long long int; value: " << population_on_earth << endl;
 
     // float

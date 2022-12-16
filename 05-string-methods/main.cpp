@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
 
-int main() {
+int main()
+{
   // concatenation
   std::string first_name = "john";
   std::string last_name = "doe";

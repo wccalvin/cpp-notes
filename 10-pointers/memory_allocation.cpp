@@ -10,7 +10,8 @@ if the pointer is lost (because of reassignment or out of scope), it'll
 lead to memory leak.
 */
 
-int main() {
+int main()
+{
     // allocate single element on the heap (free store)
     int *int_ptr{nullptr};
 
