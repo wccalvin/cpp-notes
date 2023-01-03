@@ -25,6 +25,9 @@ public:
   // default constructor
   Laptop()
   {
+    setBrandName("xxx"); // placeholder for education purposes
+    isIntel = false;
+    rating = 100;
     cout << "no args constructor called.\n";
   }
 
