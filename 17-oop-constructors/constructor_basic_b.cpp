@@ -21,29 +21,32 @@ public:
   {
     return brandName;
   }
-
-  // default constructor
-  Laptop()
-  {
-    setBrandName("xxx"); // placeholder for education purposes
-    isIntel = false;
-    rating = 100;
-    cout << "no args constructor called.\n";
-  }
-
-  // overloaded constructor
-  Laptop(string brand)
-  {
-    setBrandName(brand);
-    cout << brand << " name is set.\n";
-  }
-
-  // destructor
-  ~Laptop()
-  {
-    cout << "destructor called. \n";
-  }
+  Laptop();
+  Laptop(string);
+  ~Laptop();
 };
+
+// default constructor
+Laptop::Laptop()
+{
+  setBrandName("xxx"); // placeholder for education purposes
+  isIntel = false;
+  rating = 100;
+  cout << "no args constructor called.\n";
+}
+
+// overloaded constructor
+Laptop::Laptop(string brand)
+{
+  setBrandName(brand);
+  cout << brand << " name is set.\n";
+}
+
+// destructor
+Laptop::~Laptop()
+{
+  cout << "destructor called. \n";
+}
 
 int main()
 {
