@@ -14,7 +14,8 @@ int main()
   char a = 'a', b = 'b', c = 'c';
   std::cout << "multiple variable declaration: " << a << b << c << std::endl;
 
-  //   constant variable declaration
+  // constant variable declaration
+  // value should be assigned at the time of initialization
   const double pi = 3.14;
   std::cout << "constant value: " << pi << std::endl;
 
