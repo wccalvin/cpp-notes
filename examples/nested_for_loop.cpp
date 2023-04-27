@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
 
+/*
+ * change the values of each row and col to 1 instead of 0 in the array;
+ * print out rows and columns of the array;
+ * */
+
 int main()
 {
 
