@@ -1,17 +1,26 @@
-# Object Oriented Programming (OOP)
+## What is OOP?
+* Object Oriented Programming is a programming paradigm.
+* The intent is to provide clear structure for programs
+* Keep the code easier to maintain and modify (DRY - Don't Repeat Yourself)
 
-_Object oriented programming_ is a paradigm which allows to package both data, functions
-and ability to store and modify the states of the data.
+## What is an Object?
+* Objects are independent units.
+* It has it's own identity
+	* It is possible to have two similar objects, but they are still unique
 
-## Classes
+## What is a Class?
+* Objects are created using classes
+* Class describes what an object will be or it can be referred as an object's blueprint
+* Each class has a name, attributes (properties or data) and behaviors (methods)
 
-_classes_ are blue print for objects. A semi-colon is required to terminate the class.
+## Abstraction
+Data abstraction is a concept of providing only essential information. It is the process of representing essential features without including implementation details.
 
-```c++
-class ClassName {
-  // abstraction here...
-};
-```
+Example: The user needs to know that the car's steering is essential to control the direction of the car. The tech behind how it works (implementation) is hidden to the user.
+
+## Encapsulation
+* It simply means, combining attributes (data) and behavior (method) together in a class.
+* It also means restricting access to the inner workings of that class (data hiding)
 
 ## Class members
 
@@ -20,21 +29,6 @@ members,
 
 - **Attributes** are variables defined in the class.
 - **Methods** are functions that belong in the class.
-
-## Objects
-
-**Objects** are instances of the class. Creating an object is very similar to creating
-a variable.
-
-```c++
-ClassName instance;
-
-// set the attributes
-instance.x = "xyz";
-
-// calling methods
-instance.method();
-```
 
 ## Access Specifiers
 
@@ -55,7 +49,8 @@ The `public` access specifier provides access to members outside the class.
 
 ### Protected
 
-It works much like private access specifier, but allows inherited classes to access those class members.
+It works much like private access specifier, but allows inherited classes to access those
+class members.
 
 ## Accessor Function
 
